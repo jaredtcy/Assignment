@@ -34,7 +34,7 @@ Navigate to the directory which you would want to run the shell command (Note th
 
 ### Accessing and making changes to the shell script
 
-1. Download the "emailalert.sh" file attached and store it in the location where your directory of the terminal is specified in 
+1. Download the [emailalert.sh](https://github.com/jaredtcy/Assignment/blob/main/emailalert.sh) file attached and store it in the location where your directory of the terminal is specified in 
 2. Viewing the content of the shell file can be done with this command (Ensure you are in the directory where the shell file is in)
    ```sh
    vi emailalert.sh
@@ -85,12 +85,5 @@ Note: Before running the shell script, change the email to your own personal ema
    ```
 For more information on how we can configure different timings, you can refer to this [Documentation](https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/)
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
