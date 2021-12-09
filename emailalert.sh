@@ -15,7 +15,6 @@ if [ "$max_count" -lt "$count" ] ; then
 SUBJECT="WARNING: Number of Errors found in Apache logfile exceeds 100"
 
 #This is a temp file which is created to store the email message
-
 MESSAGE="/tmp/log2.txt"
 TO="tanchaoyang93@outlook.com"
 echo "ATTENTION: There are more than 100 errors found in the Apache logfile. Please check." >> $MESSAGE
