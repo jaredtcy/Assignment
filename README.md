@@ -1,24 +1,19 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Task 1
+## Project Description
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+This project involves the process of identifying Error 4xx and 5xx codes in the given log file and triggers and email if there are a total of more than 100 error codes identified
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-### Built With
+### CLI tools required
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [wget](https://www.howtogeek.com/281663/how-to-use-wget-the-ultimate-command-line-downloading-tool/#:~:text=macOS%20systems%20do%20not%20come,install%20wget%20in%20the%20Terminal.![image](https://user-images.githubusercontent.com/83501266/145352484-96d97199-de1e-45b7-8a21-a29bafd5d44c.png))
+* [grep](https://en.wikipedia.org/wiki/Grep)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -27,31 +22,34 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+On your machine, open terminal (For MAC users) or CMD (For Windows users)
 
-### Prerequisites
+### Directory 
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Navigate to the directory which you would want to run the shell command (Note that a log file will output to this directory that you are in).
+* cd
   ```sh
-  npm install npm@latest -g
+  cd /Users/jtcy/Desktop/
   ```
 
-### Installation
+### Accessing and making changes to the shell script
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Download the "emailalert.sh" file attached and store it in the location where your directory of the terminal is specified in 
+2. Viewing the content of the shell file can be done with this command (Ensure you are in the directory where the shell file is in)
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   vi emailalert.sh
    ```
-3. Install NPM packages
+3. Editing the file
    ```sh
-   npm install
+   Press the letter "i" 
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Saving the file
+   ```sh
+   ":" followed by a "w"
+   ```
+5. Exiting the file
+   ```sh
+   ":" followed by a "q!" 
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
