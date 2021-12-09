@@ -34,7 +34,7 @@ Navigate to the directory which you would want to run the shell command (Note th
 
 ### Accessing and making changes to the shell script
 
-1. Download the [emailalert.sh](https://github.com/jaredtcy/Task-1/blob/main/File%20to%20be%20downloaded.zip) file attached and store it in the location where your directory of the terminal is specified in 
+1. Download the [emailalert.sh](https://github.com/jaredtcy/Task-1/blob/main/File%20to%20be%20downloaded.zip) file attached and store it in the location where your directory of the terminal is specified in (Click [here](https://github.com/jaredtcy/Task-1/blob/main/emailalert.sh) to view the file content in Github console)
 2. Viewing the content of the shell file can be done with this command (Ensure you are in the directory where the shell file is in)
    ```sh
    vi emailalert.sh
