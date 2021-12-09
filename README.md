@@ -61,7 +61,29 @@ Note: Before running the shell script, change the email to your own personal ema
    ```sh
    ./<path of file/filename> 
    ```
-2. A successful run will result in an email being sent to your email with the relevant details specified in the file
+2. A successful run will result in your machine connecting to the url  
+   ```sh
+   https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/apache_logs/apache_logs
+   ```
+4. A .txt log file will then be output on your current directory
+5. An email will then be triggered and sent to the email address that you have specified
+
+
+### Configuring a Cronjob to run this file every hour
+
+1. Access crontab 
+   ```sh
+   crontab -e
+   ```
+2. Edit the file
+   ```sh
+   Press the letter "i"
+   ```
+3. Key in the configuration required
+   ```sh
+   0 * * * * <file/path/name>
+   ```
+For more information on how we can configure different timings, you can refer to this [Documentation](https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/)
 
 
 <!-- USAGE EXAMPLES -->
