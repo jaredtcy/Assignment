@@ -54,6 +54,14 @@ Navigate to the directory which you would want to run the shell command (Note th
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Running the shell script
+Note: Before running the shell script, change the email to your own personal email address
+
+1. Navigate to the directory where the shell script is in and execute the command below 
+   ```sh
+   ./<path of file/filename> 
+   ```
+2. A successful run will result in an email being sent to your email with the relevant details specified in the file
 
 
 <!-- USAGE EXAMPLES -->
