@@ -11,9 +11,12 @@ This project involves the process of identifying Error 4xx and 5xx codes in the 
 
 ### CLI tools required
 
+* [bash](https://stackoverflow.com/questions/10574969/how-do-i-install-bash-3-2-25-on-mac-os-x-10-5-8)
 * [wget](https://www.howtogeek.com/281663/how-to-use-wget-the-ultimate-command-line-downloading-tool/#:~:text=macOS%20systems%20do%20not%20come,install%20wget%20in%20the%20Terminal.![image](https://user-images.githubusercontent.com/83501266/145352484-96d97199-de1e-45b7-8a21-a29bafd5d44c.png))
 * [grep](https://en.wikipedia.org/wiki/Grep)
 * [mail](https://linuxtechlab.com/mail-command-send-mail-from-terminal/)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
