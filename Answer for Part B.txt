@@ -1,4 +1,4 @@
 Log files can be stored using AWS S3. Since it is a rare occasion that logs up to 3 months old is required, the team can consider using 
-S3 Standard-Infrequent Access (IA). This allows the team to access the data that are up to 3 months old rapidly when needed. After 
-3 months, they can configure a S3 lifecycle policy to move the data from Standard -IA to Amazon S3 Glacier Deep archive. 
+S3 Standard-Infrequent Access (IA). This allows the team to access the data that are up to 3 months old rapidly when needed. 
+After 3 months, they can configure a S3 lifecycle policy to move the data from Standard -IA to Amazon S3 Glacier Deep archive. 
 This should assist to store the rarely accessed data for at least 7 years. 
