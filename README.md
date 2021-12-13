@@ -86,6 +86,15 @@ Note: Before running the shell script, change the email to your own personal ema
    ```sh
    0 * * * * <file/path/name>
    ```
+4. Saving the file
+   ```sh
+   ":" followed by a "w"
+   ```
+5. Exiting the file
+   ```sh
+   ":" followed by a "q!" 
+   ```
+   
 For more information on how we can configure different timings, you can refer to this [Documentation](https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/)
 
 
