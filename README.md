@@ -38,19 +38,33 @@ Navigate to the directory which you would want to run the shell command (Note th
 ### Accessing and making changes to the shell script
 
 1. Download the [emailalert.sh](https://github.com/jaredtcy/Task-1/blob/main/File%20to%20be%20downloaded.zip) file attached and store it in the location where your directory of the terminal is specified in (Click [here](https://github.com/jaredtcy/Task-1/blob/main/emailalert.sh) to view the file content in Github console)
-2. Viewing the content of the shell file can be done with this command (Ensure you are in the directory where the shell file is in)
+
+2. Ensure that the [emailalert.sh](https://github.com/jaredtcy/Task-1/blob/main/File%20to%20be%20downloaded.zip) file has executable permission 
+   ```sh
+   cd <directory where emailalert.sh is stored at>
+   ```
+   To verify if the file has a "x" (executable) permission. (If yes, proceed to Step 3)
+   ```sh
+   ls -ltr 
+   ```
+   Give a permission to the file 
+   ```sh
+   chmod +x <emailalert.sh>
+   ```
+    
+3. Viewing the content of the shell file can be done with this command (Ensure you are in the directory where the shell file is in)
    ```sh
    vi emailalert.sh
    ```
-3. Editing the file
+4. Editing the file
    ```sh
    Press the letter "i" 
    ```
-4. Saving the file
+5. Saving the file
    ```sh
    ":" followed by a "w"
    ```
-5. Exiting the file
+6. Exiting the file
    ```sh
    ":" followed by a "q!" 
    ```
